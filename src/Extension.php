@@ -1,4 +1,7 @@
 <?php
+
+namespace Zumba\BehatParameterExtension;
+
 use Behat\Testwork\ServiceContainer\Extension as ExtensionInterface;
 use Behat\Testwork\ServiceContainer\ExtensionManager;
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
