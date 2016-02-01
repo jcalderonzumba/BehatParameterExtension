@@ -1,0 +1,27 @@
+{
+  "name": "jcalderonzumba/behat-parameters-extension",
+  "type": "behat-extension",
+  "homepage": "https://github.com/jcalderonzumba/BehatParameterExtension",
+  "description": "Parameters extension for Behat",
+  "keywords": [
+    "configuration",
+    "framework",
+    "bdd"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Juan Francisco Calderon Zumba",
+      "email": "juanfcz@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "behat/behat": "~3.0,>=3.0.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zumba\\BehatParameterExtension": "src/"
+    }
+  }
+}
